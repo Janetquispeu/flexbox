@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway');
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.head_table{
+	background-color: #C7C7C7;
+	display: inline-block; 
+	padding: 1%;
+}
+.td_user, .td_id{
+	width: 8%;
+}
+.td_title{
+	width: 20%;
+}
+.td_body{
+	width: 40%;
+}
+#table, #tbody{
+	font-family: "Quicksand";
+	font-size: 15px;
+	margin-left: auto;
+  margin-right: auto;
+}
+#containerTable{
+	justify-content: center;
+	display: flex;
+}
+#tbody, #table{
+	text-align: center;
+}
+.div_table{
+	display: inline-block; 
+	padding: 1%;
+	border-bottom: 1px solid #EDEDED;
+}
+.div_block{
+	width: initial;
+}
+.div_tab{
+	display: inline-flex;
+  flex-direction: column;
+  width: 30%;
+  height: 44%;
+  margin: 1%;
+  padding: 1%;
+  text-align: justify;
+  font-family: "Quicksand";
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: #F8DC7C;
+}
+.div_tab:hover{
+	background-color: #B0C9E5;  
+}

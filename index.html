@@ -1,0 +1,30 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+ <title>ejercicio usando Ajax</title>
+</head>
+<body>
+	<button type="button" id="btnDiv">DIV</button>
+	<button type="button" id="btnTabla">TABLA</button>
+	<div id="table">
+		<div class="td_user head_table">userId</div>
+		<div class="td_id head_table">id</div>
+		<div class="td_title head_table">Title</div>
+		<div class="td_body head_table">Body</div>
+	</div>
+	<div id="tbody"></div>
+
+<script type="text/template" id="tplTemplate">
+	<div class="container_table">
+		<div class="td_user div_table"><%=mivariable_user%></div>
+		<div class="td_id div_table"><%=mivariable_id%></div>
+		<div class="td_title div_table"><%=mivariable_title%></div>
+		<div class="td_body div_table"><%=mivariable_body%></div>
+	</div>
+</script>
+
+<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script type="text/javascript" src="js/modal.js"></script>
+</body>
+</html>
